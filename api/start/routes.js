@@ -25,7 +25,7 @@ Route.post('/api/login', 'UserController.auth')
 
 
 Route.group(() => {
-    Route.resource('cars', 'CarController')
+    Route.resource('/api/cars', 'CarController')
         .apiOnly()
         .except('update')
 }).middleware(['auth']);
