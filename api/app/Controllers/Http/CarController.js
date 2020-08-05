@@ -20,7 +20,7 @@ class CarController {
      * @param {View} ctx.view
      */
     async index() {
-        const cars = await Car.all();
+        const cars = await Car.query().with('user').fetch();
         return cars;
     }
 
@@ -53,7 +53,7 @@ class CarController {
      * @param {View} ctx.view
      */
     async show({ params }) {
-        const car = await Car.findOrFail(params.id);
+        const car = await Car.query().with('user').where('id', params.id).first();
         return car;
     }
 
