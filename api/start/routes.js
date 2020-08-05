@@ -23,6 +23,9 @@ Route.get('/', () => {
 Route.post('/api/user', 'UserController.register')
 Route.post('/api/login', 'UserController.auth')
 
-Route.get('/api', () => {
-    return { message: 'Car Rental API' }
+
+Route.group(() => {
+    Route.resource('cars', 'CarController')
+        .apiOnly()
+        .except('update')
 }).middleware(['auth']);
