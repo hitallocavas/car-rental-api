@@ -2,7 +2,7 @@
 O objetivo principal é fazer com que usuários selecionem os carros e os aluguem
 
 # Configuração do Projeto
-Baixe este projeto na sua máquina e execute
+Baixe este projeto na sua máquina e no diretório /api execute
 - npm install
 - adonis serve --dev
 
