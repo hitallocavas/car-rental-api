@@ -23,4 +23,4 @@ Baixe este projeto na sua máquina e execute
 
 # Autores
 - Hitallo Cavalcanti @hitallocavas
-- Moizes Gabriel @poesiabinaria
+- Moizes Gabriel [@poesiabinaria](https://github.com/poesiabinaria)
