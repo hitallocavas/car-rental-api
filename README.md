@@ -8,17 +8,16 @@ Baixe este projeto na sua máquina e execute
 
 # Rotas
 
-| /api/user     | POST     | UserController.register |            | /api/user         |        
+| /api/user     | POST     
 
-| /api/login    | POST     | UserController.auth     |            | /api/login        |        
+| /api/login    | POST   
+| /api/cars     | HEAD,GET
 
-| /api/cars     | HEAD,GET | CarController.index     | auth       | /api/cars.index   |        
+| /api/cars     | POST    
 
-| /api/cars     | POST     | CarController.store     | auth       | /api/cars.store   |       
+| /api/cars/:id | HEAD,GET       
 
-| /api/cars/:id | HEAD,GET | CarController.show      | auth       | /api/cars.show    |       
-
-| /api/cars/:id | DELETE   | CarController.destroy   | auth       | /api/cars.destroy |       
+| /api/cars/:id | DELETE  
 
 
 # Autores
