@@ -8,7 +8,6 @@ Baixe este projeto na sua máquina e execute
 
 # Rotas
 
----------------------------------------------------------------------------------------
 | /api/user     | POST     | UserController.register |            | /api/user         |        
 
 | /api/login    | POST     | UserController.auth     |            | /api/login        |        
@@ -20,7 +19,7 @@ Baixe este projeto na sua máquina e execute
 | /api/cars/:id | HEAD,GET | CarController.show      | auth       | /api/cars.show    |       
 
 | /api/cars/:id | DELETE   | CarController.destroy   | auth       | /api/cars.destroy |       
----------------------------------------------------------------------------------------
+
 
 # Autores
 - Hitallo Cavalcanti @hitallocavas
